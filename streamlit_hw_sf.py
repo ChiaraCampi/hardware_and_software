@@ -1,11 +1,15 @@
 import numpy as np
-import 
-st.title("📊 Data evaluation app")
+import streamlit as st
+
+st.title("Time Series Analysis: Junyi Academy Foundation")
 
 st.write(
-    "We are so glad to see you here. ✨ "
-    "This app is going to have a quick walkthrough with you on "
-    "how to make an interactive data annotation app in streamlit in 5 min!"
+    "Junyi Academy Foundation, a non-profit organization based in Taiwan that aims to provide all children equitable quality 
+education by technology, is eager to support our learning community during this pandemic. We release a dataset consisting 
+of over 16 million exercise attempt logs on our platform from more than 72,000 students over the course of a year 
+(from 2018/08 to 2019/07). We hope our dataset could empower the research of creating a better and personalized learning 
+experience for students, and further encourage broader participation for contributing to the future of online learning 
+from interdisciplinary experts."
 )
 
 st.write(
